@@ -1,0 +1,35 @@
+name: Update shortcut
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Update-shortcut
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install Python 3.10
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Check out repo
+        uses: actions/checkout@v2
+      - name: Clone and run Shortcut-Me
+        run: |-
+          git clone https://github.com/torresflo/Shortcut-Me.git
+          cd Shortcut-Me/ && python main.py
+          cd ../ && rm -rf Shortcut-Me/
+      - name: Commit and push
+        run: |-
+          git config --global user.email "bot@github.com" && git config --global user.name "Shortcut-Bot"
+          git config --global pull.rebase false
+          git diff
+          git add README.md && git commit -m "Update shortcut" || exit 0
+          git pull && git push
