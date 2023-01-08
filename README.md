@@ -33,7 +33,11 @@ Add comments to the place where you want to update in your readme file.
 You can add a shortcut with:
    ```markdown
     <!-- shortcut-box start -->
-    <!-- shortcut-box end -->
+In Visual Studio
+
+<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>B</kbd> to `Open Breakpoints`
+<!-- Powered by https://github.com/torresflo/Shortcut-Me. -->
+<!-- shortcut-box end -->
    ```
 
 ### Project setup
