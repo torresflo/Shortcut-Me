@@ -40,10 +40,6 @@ You can add a shortcut with:
 
 For updating your github profile README, you can follow [update-shortcut.yml](https://github.com/torresflo/Shortcut-Me/blob/master/.github/workflows/update-shortcut.yml) to create a GitHub Action in your README repository.
 
-1. Go to the repo **Settings > Secrets**
-1. Add the following environment variable:
-   - **MARKDOWN_FILE:** The name of your readme file. 
-
 ## Example
 
 Here is an example from my own profile that you could obtain:
