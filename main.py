@@ -11,4 +11,4 @@ if __name__ == '__main__':
     if fileName is not None:
         FileManager.writeRandomShortcutInFile(fileName, randomShortcut)
     else:
-        raise Exception(f"Cannot find file: {fileName}")
+        raise Exception(f"Cannot find environment variable: MARKDOWN_FILE")

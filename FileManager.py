@@ -12,6 +12,8 @@ class FileManager:
             contentToWrite = FileManager.computeFileContentWithShortcut(fileName, shortcut)
             with open(fileName, "w", encoding="utf-8") as file:
                 file.write(contentToWrite)
+        else:
+            raise Exception(f"Cannot find file: {fileName}")
 
     def computeFileContentWithShortcut(fileName: str, shortcut: Shortcut) -> str:
         with open(fileName, "r", encoding="utf-8") as file:

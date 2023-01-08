@@ -14,7 +14,7 @@ jobs:
     name: Update-shortcut
     runs-on: ubuntu-latest
     env:
-      MARKDOWN_FILE: README.md
+      MARKDOWN_FILE: ../README.md
 
     steps:
       - name: Install Python 3.10
