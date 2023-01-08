@@ -32,12 +32,8 @@ Add comments to the place where you want to update in your readme file.
 
 You can add a shortcut with:
    ```markdown
-    <!-- shortcut-box start -->
-In Visual Studio
-
-<kbd>Ctrl</kbd> + <kbd>1</kbd> + <kbd>F</kbd> to `Go to File`
-<!-- Powered by https://github.com/torresflo/Shortcut-Me. -->
-<!-- shortcut-box end -->
+   <!-- shortcut-box start -->
+   <!-- shortcut-box end -->
    ```
 
 ### Project setup
@@ -48,7 +44,7 @@ For updating your github profile README, you can follow [update-shortcut.yml](ht
 
 Here is an example from my own profile that you could obtain:
 
-![Example image](https://raw.githubusercontent.com/torresflo/Shortcut-Me/examples/example1.png)
+![Example image](https://raw.githubusercontent.com/torresflo/Shortcut-Me/main/examples/example1.png)
 
 ## Contributing
 
