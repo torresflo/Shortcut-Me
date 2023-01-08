@@ -1,0 +1,319 @@
+{
+    "editors": [
+        {
+            "name": "Visual Studio",
+            "categories": [
+                {
+                    "name": "Search and Navigation",
+                    "shortcuts": [
+                        {
+                            "name": "Visual Studio Search",
+                            "keys": [
+                                ["Ctrl", "Q"]
+                            ]
+                        },
+                        {
+                            "name": "Go to All",
+                            "keys": [
+                                ["Ctrl", "T"]
+                            ]
+                        },
+                        {
+                            "name": "Go to Type",
+                            "keys":[
+                                ["Ctrl", "1", "T"]
+                            ]
+                        },
+                        {
+                            "name": "Go to File",
+                            "keys": [
+                                ["Ctrl", "1", "F"]
+                            ]
+                        },
+                        {
+                            "name": "Go to Member",
+                            "keys": [
+                                ["Ctrl", "1", "M"]
+                            ]
+                        },
+                        {
+                            "name": "Go to Symbol",
+                            "keys": [
+                                ["Ctrl", "1", "S"]
+                            ]
+                        },
+                        {
+                            "name": "Navigate Backward",
+                            "keys": [
+                                ["Ctrl", "-"]
+                            ]
+                        },
+                        {
+                            "name": "Navigate Forward",
+                            "keys": [
+                                ["Ctrl", "^", "-"]
+                            ]
+                        },
+                        {
+                            "name": "Go to Definition",
+                            "keys": [
+                                ["F12"]
+                            ]
+                        },
+                        {
+                            "name": "Go to Implementation",
+                            "keys": [
+                                ["Ctrl", "F12"]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Editing and Refactoring",
+                    "shortcuts": [
+                        {
+                            "name": "Quick Actions and Refactoring Suggestions",
+                            "keys": [
+                                ["Alt", "↲"]
+                            ]
+                        },
+                        {
+                            "name": "Method Info",
+                            "keys": [
+                                ["Ctrl", "K"],
+                                ["Ctrl", "I"]
+                            ]
+                        },
+                        {
+                            "name": "Comment",
+                            "keys":[
+                                ["Ctrl", "K"],
+                                ["Ctrl", "C"]
+                            ]
+                        },
+                        {
+                            "name": "Uncomment",
+                            "keys":[
+                                ["Ctrl", "K"],
+                                ["Ctrl", "U"]
+                            ]
+                        },
+                        {
+                            "name": "Delete Line (without copying it)",
+                            "keys": [
+                                ["Ctrl", "^", "L"]
+                            ]
+                        },
+                        {
+                            "name": "Paste from keyboard buffer ring",
+                            "keys": [
+                                ["Ctrl", "^", "V"]
+                            ]
+                        },
+                        {
+                            "name": "Move Code Up",
+                            "keys": [
+                                ["Alt", "↑"]
+                            ]
+                        },
+                        {
+                            "name": "Move Code Down",
+                            "keys": [
+                                ["Alt", "↓"]
+                            ]
+                        },
+                        {
+                            "name": "Format Document",
+                            "keys": [
+                                ["Ctrl", "K"],
+                                ["Ctrl", "D"]
+                            ]
+                        },
+                        {
+                            "name": "Format Selection",
+                            "keys": [
+                                ["Ctrl", "K"],
+                                ["Ctrl", "F"]
+                            ]
+                        },
+                        {
+                            "name": "Surround with (... if/try/foreach)",
+                            "keys": [
+                                ["Ctrl", "K"],
+                                ["Ctrl", "S"]
+                            ]
+                        },
+                        {
+                            "name": "Rename",
+                            "keys": [
+                                ["Ctrl", "R"],
+                                ["Ctrl", "R"]
+                            ]
+                        },
+                        {
+                            "name": "Encapsulate Field",
+                            "keys": [
+                                ["Ctrl", "R"],
+                                ["Ctrl", "E"]
+                            ]
+                        },
+                        {
+                            "name": "Remove and sort Usings",
+                            "keys": [
+                                ["Ctrl", "R"],
+                                ["Ctrl", "G"]
+                            ]
+                        },
+                        {
+                            "name": "Extract Method",
+                            "keys": [
+                                ["Ctrl", "R"],
+                                ["Ctrl", "M"]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Debugging and Testing",
+                    "shortcuts": [
+                        {
+                            "name": "Debug",
+                            "keys": [
+                                ["F5"]
+                            ]
+                        },
+                        {
+                            "name": "Run",
+                            "keys": [
+                                ["Ctrl", "5"]
+                            ]
+                        },
+                        {
+                            "name": "Stop",
+                            "keys":[
+                                ["^", "5"]
+                            ]
+                        },
+                        {
+                            "name": "Toggle Breakpoint",
+                            "keys": [
+                                ["F9"]
+                            ]
+                        },
+                        {
+                            "name": "Step Over",
+                            "keys": [
+                                ["F10"]
+                            ]
+                        },
+                        {
+                            "name": "Step Into",
+                            "keys": [
+                                ["F11"]
+                            ]
+                        },
+                        {
+                            "name": "Step Out",
+                            "keys": [
+                                ["^", "F11"]
+                            ]
+                        },
+                        {
+                            "name": "Debug All Tests",
+                            "keys": [
+                                ["Ctrl", "R"],
+                                ["Ctrl", "A"]
+                            ]
+                        },
+                        {
+                            "name": "Run All Tests",
+                            "keys": [
+                                ["Ctrl", "R"],
+                                ["A"]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Window Management",
+                    "shortcuts": [
+                        {
+                            "name": "Select Active File in Solution Explorer",
+                            "keys": [
+                                ["Ctrl", "["],
+                                ["S"]
+                            ]
+                        },
+                        {
+                            "name": "Open Solution Explorer",
+                            "keys": [
+                                ["Ctrl", "Alt", "L"]
+                            ]
+                        },
+                        {
+                            "name": "Open Output Window",
+                            "keys":[
+                                ["Ctrl", "Alt", "O"]
+                            ]
+                        },
+                        {
+                            "name": "Open Error List",
+                            "keys":[
+                                ["Ctrl", "\\"],
+                                ["E"]
+                            ]
+                        },
+                        {
+                            "name": "Open Breakpoints",
+                            "keys":[
+                                ["Ctrl", "Alt", "B"]
+                            ]
+                        },
+                        {
+                            "name": "Next Tool Window",
+                            "keys": [
+                                ["Alt", "F6"]
+                            ]
+                        },
+                        {
+                            "name": "Previous Tool Window",
+                            "keys": [
+                                ["^", "Alt", "F6"]
+                            ]
+                        },
+                        {
+                            "name": "Close Current Tool Window",
+                            "keys": [
+                                ["^", "Esc"]
+                            ]
+                        },
+                        {
+                            "name": "Go to Document to the Left",
+                            "keys": [
+                                ["Ctrl", "Alt", "Page Up"]
+                            ]
+                        },
+                        {
+                            "name": "Go to Document to the Right",
+                            "keys": [
+                                ["Ctrl", "Alt", "Page Down"]
+                            ]
+                        },
+                        {
+                            "name": "Most Recent Open Document",
+                            "keys": [
+                                ["Ctrl", "Tab"]
+                            ]
+                        },
+                        {
+                            "name": "Full Screen (max window size and reduced menus)",
+                            "keys": [
+                                ["^", "Alt", "↲"]
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
