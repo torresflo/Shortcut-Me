@@ -10,3 +10,5 @@ if __name__ == '__main__':
     fileName = os.getenv("MARKDOWN_FILE")
     if fileName is not None:
         FileManager.writeRandomShortcutInFile(fileName, randomShortcut)
+    else:
+        raise Exception(f"Cannot find file: {fileName}")
