@@ -314,6 +314,124 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Visual Studio Code",
+            "categories": [
+                {
+                    "name": "General",
+                    "shortcuts": [
+                        {
+                            "name": "Show Command Palette",
+                            "keys": [
+                                ["Ctrl", "Shift", "P"]
+                            ]
+                        },
+                        {
+                            "name": "Quick Open, Go to File...",
+                            "keys": [
+                                ["Ctrl", "P"]
+                            ]
+                        },
+                        {
+                            "name": "New window/instance",
+                            "keys": [
+                                ["Ctrl", "Shift", "N"]
+                            ]
+                        },
+                        {
+                            "name": "Close window/instance",
+                            "keys": [
+                                ["Ctrl", "Shift", "W"]
+                            ]
+                        },
+                        {
+                            "name": "Keyboard Shortcuts",
+                            "keys": [
+                                ["Ctrl", "K"],
+                                ["Ctrl", "S"]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Rich Languages Editing",
+                    "shortcuts": [
+                        {
+                            "name": "Trigger Suggestion",
+                            "keys": [
+                                ["Ctrl", "Space"]
+                            ]
+                        },
+                        {
+                            "name": "Trigger Parameter Hints",
+                            "keys": [
+                                ["Ctrl", "Shift", "Space"]
+                            ]
+                        },
+                        {
+                            "name": "Format Document",
+                            "keys": [
+                                ["Ctrl", "Alt", "F"]
+                            ]
+                        },
+                        {
+                            "name": "Format Selection",
+                            "keys": [
+                                ["Ctrl", "K"],
+                                ["Ctrl", "F"]
+                            ]
+                        },
+                        {
+                            "name": "Quick Fix",
+                            "keys": [
+                                ["Ctrl", "."]
+                            ]
+                        },
+                        {
+                            "name": "Rename Symbol",
+                            "keys": [
+                                ["F2"]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Navigation",
+                    "shortcuts": [
+                        {
+                            "name": "Show all Symbols",
+                            "keys": [
+                                ["Ctrl", "T"]
+                            ]
+                        },
+                        {
+                            "name": "Go to Line...",
+                            "keys": [
+                                ["Ctrl", "G"]
+                            ]
+                        },
+                        {
+                            "name": "Go to File...",
+                            "keys": [
+                                ["Ctrl", "P"]
+                            ]
+                        },
+                        {
+                            "name": "Go to Symbol...",
+                            "keys": [
+                                ["Ctrl", "Shift", "O"]
+                            ]
+                        },
+                        {
+                            "name": "Navigate Editor Group History",
+                            "keys": [
+                                ["Ctrl", "Shift", "Tab"]
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
