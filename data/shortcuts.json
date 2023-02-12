@@ -259,7 +259,7 @@
                         {
                             "name": "Open Error List",
                             "keys":[
-                                ["Ctrl", "\\"],
+                                ["Ctrl", "\\\\"],
                                 ["E"]
                             ]
                         },
